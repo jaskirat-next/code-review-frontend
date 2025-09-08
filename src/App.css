@@ -65,3 +65,14 @@ main .right {
   overflow: auto;
 }
 
+@media (max-width: 768px) {
+  main {
+    flex-wrap: wrap;
+  }
+
+  main .left,
+  main .right {
+    flex-basis: 100%; /* Stack vertically */
+    height: auto; /* Allow natural height */
+  }
+}
