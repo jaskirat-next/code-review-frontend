@@ -23,7 +23,7 @@ function App() {
 
 
   async function codeReview() {
-   const response = await axios.post('http://localhost:3000/ai/getReview', {code})
+   const response = await axios.post('https://code-review-backend-nu.vercel.app/ai/getReview', {code})
    setReview(response.data)
   }
 
