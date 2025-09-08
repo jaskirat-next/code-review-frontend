@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   const [code , setCode] = useState(`function sum() {
-    return 1+ 1}`)
+    return 1+ 1 + 1}`)
 
   useEffect( () => {
     prism.highlightAll()
